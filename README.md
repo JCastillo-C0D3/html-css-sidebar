@@ -1,0 +1,3 @@
+Hey everyone reading this this is a just for practice im going to create this application how the call it in the tech world and it means website. This is just for practice the im practicing this type of application, just for me to get event more familiarize with the web-developer work hope you guys find this useful and enjoy the view of this website thanks you so much.
+
+By the way now the im creating this website i want to let you guys know the im still learning coding front end then later ill get on back stage to learn how to do it all from the font end to the back end and all together full stack a complete developers in the future not too far from me now thanks for looking at this web enjoy.
