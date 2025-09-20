@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/* This is the content for the entire page to have this in every box as we go */
+
+.body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+/* This is the setting for every content on the body section of the page. */
+
+.side-bar {
+  width: 25%;
+  max-width: 40vw;
+  background-color: #ffffff;
+  border: 0.5px solid rgb(155, 155, 155);
+  padding: 100px 0;
+  margin: 0;
+  gap: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+/* This is the side-bar box setting */
+
+.logo-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+/* This is the container holding the logo */
+
+.logo {
+  /* display: block;
+  margin: 0 auto;
+  padding: 0; */
+  width: 75%;
+  height: 75%;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+/* This is the logo settings */
+
+.menu-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* line-height: 3rem; */
+  margin: 0;
+  padding: 0;
+  gap: 2.3rem;
+}
+/* This is the setting and setup for the menu bar box */
+
+.menu-bar > div {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #392f5a;
+  cursor: pointer;
+}
+/* This is the setup for the menu in the side bar */
+
+.menu-bar > div:hover {
+  color: #628ae8;
+  /* font-style: italic; */
+  transition: ease-in-out 0.1s;
+}
+/* This is the menu bar setup after hover over */
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+}
+/* This is the content-wrap box */
+
+.main-section {
+  padding: 8% 3%;
+  gap: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* This is the setup the box container for the main part of the body the part in the side with the fist title and the sample image of the page.*/
+
+.title-about-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+/* This is the setup for the title, paragraph and button in the main section.*/
+
+.title {
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  padding: 0;
+}
+/* This is the setup for the title of the page */
+
+.about-paragraph > p {
+  text-align: left;
+  width: 100%;
+  max-width: 450px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #000;
+  flex: 1 0 0;
+}
+/* This is the setup for the paragraph under the title */
+
+.button {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+}
+/* This is the box holding the button */
+
+.button > button {
+  text-align: center;
+  padding: 8px;
+  border-radius: 30%;
+  background-color: #004af8;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* This is th setup for the button under the paragraph of this page */
+
+.button > :hover {
+  background-color: #d1aa36;
+  border: 2px solid #5a7dce;
+}
+/* This is the button hover over */
+
+.button > button:active {
+  color: #d1aa36;
+  background-color: #000;
+  transition: all ease-in-out 0.1s;
+}
+/* This is the hover over the action for the button under the paragraph */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+/* This is an image container holding the image and giving it the width i wanted for it */
+
+.photo {
+  width: 100%;
+  max-width: 500px;
+  flex: 1 0 0;
+  height: auto;
+  box-shadow: 2px 3px 0.3rem #000;
+}
+/* This is the set up for the image on the page */
+
+figcaption {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #5a7dce;
+}
+/* This is the credits for the owner of the image */
+
+figcaption > .credits-to {
+  text-decoration: none;
+  color: #155f02;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* Link to the owner of the image */
+
+figcaption > .credits-to:hover {
+  color: #f00;
+}
+/* This is the hover over the credits */
+
+figcaption > .credits-to:active {
+  color: #392f5a;
+}
+/* This is the action to the credits click */
+
+.containers-box {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 0 15% 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #faf9f9;
+  border-radius: 10px;
+  box-shadow: 2px 3px 0.2rem #8a8a8a;
+  width: 300px;
+  height: 200px;
+}
+/* This is the containers with the boxes under the photo section  */
